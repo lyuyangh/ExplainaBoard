@@ -11,7 +11,8 @@ from datalabs import load_dataset
 
 # TODO(gneubig) we should try to remove this task-specific dependency with Datalab
 from datalabs.operations.aggregate.summarization import summarization_aggregating
-from datalabs.operations.featurize.plugins.summarization.sum_attribute import SUMAttribute
+from explainaboard.utils.feature_functions.sum_attribute import SUMAttribute
+# from datalabs.operations.featurize.plugins.summarization.sum_attribute import SUMAttribute
 from datalabs.operations.featurize.summarization import get_oracle_summary
 
 from eaas import Config, Client
